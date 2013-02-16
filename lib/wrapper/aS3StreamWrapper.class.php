@@ -223,7 +223,10 @@ class aS3StreamWrapper
       if (!empty($key)) $options['key'] = $key;
       if (!empty($secretKey)) $options['secret'] = $secretKey;
       if (!empty($token)) $options['token'] = $token;
-      self::$services[$id] = new AmazonS3($options);
+      $s3 = new AmazonS3($options);
+      // Bugfix for EU West 301's
+      $s3->set_region($this->getRegion());
+      self::$services[$id] = $s3;
     }
     return self::$services[$id];
   }

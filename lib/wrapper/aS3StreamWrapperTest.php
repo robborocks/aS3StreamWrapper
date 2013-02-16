@@ -3,8 +3,6 @@
 // This is a standalone PHP script that tests the stream wrapper.
 // There are no dependencies on Symfony or Apostrophe.
 
-require './aS3StreamWrapper.class.php';
-
 // YOU create aS3StreamWrapperTestSettings.php. It should
 // look like this (use an S3 region that has read-after-write consistency, such as us-west-1):
 //

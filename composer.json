@@ -1,5 +1,5 @@
 {
-    "name": "robborcks/as3streamwrapper",
+    "name": "robborocks/as3streamwrapper",
     "type": "library",
     "description": "A port of the P'unk Avenue as3streamwrapper (https://github.com/punkave/aS3StreamWrapper)",
     "keywords": ["AWS","S3"],

@@ -11,8 +11,7 @@
     "autoload": {
         "files": [
             "lib/wrapper/aS3StreamWrapper.class.php",
-            "lib/wrapper/aS3StreamWrapperMimeTypes.class.php",
-            "lib/wrapper/aS3UpdateMimeTypesList.php"
+            "lib/wrapper/aS3StreamWrapperMimeTypes.class.php"
         ]
     }
 }
